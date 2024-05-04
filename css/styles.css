@@ -1,0 +1,144 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+/* navbar başlangıç */
+.logo-webstudio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.logo-studio{
+    color: #2e2f42;
+}
+.navbar-menu a{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.navbar-menu a:hover,.navbar-menu a:focus{
+    color: #404bbf;
+}
+.nav-address-first{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.nav-address{
+    font-style: normal;
+}
+.nav-address-first:hover,.nav-address-first:focus{
+    color: #404bbf;
+}
+/* navbar bitiş */
+/* 1.bölüm başlangıç*/
+.main-section{
+    background-color: #2e2f42;
+}
+.main-section-head{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.main-section-button{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main-section-button:hover,.main-section-button:focus{
+   background-color:#404BBF;
+}
+/* 1.bölüm bitiş*/
+/* 2.bölüm başlangıç*/
+.section-mission h2,h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.mission-paragraf{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* 2.bölüm bitiş*/
+/* 3.bölüm başlangıç*/
+.section-ourteam{
+    background-color: #F4F4FD;
+}
+.section-ourteam-head{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-ourteam-second{
+    background-color: #FFFFFF;
+}
+.ourteam-paragraf{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*3bölüm bitiş*/
+/*4.bölüm başlangıç*/
+.ourportfolio-head{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-ourportfolio-head{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.ourportfolio-paragraf{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*4.bölüm bitiş*/
+/*footer başlangıç*/
+.footer-class{
+    background-color:  #2e2f42;
+}
+.footer-logo-web{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.footer-logo-studio{
+    color: #f4f4fd;
+}
+.footer-paragraf{
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*footer bitiş*/
