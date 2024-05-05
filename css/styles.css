@@ -4,13 +4,23 @@ body{
     background-color: #FFFFFF;
 }
 /* navbar başlangıç */
-nav , .navbar-menu{
-    display: flex;
+.header-container{
     align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
-address{
-    display: flex;
+nav{
     align-items: center;
+    display: flex;
+}
+.navbar-menu,.nav-address-display{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.menu-studio,.nav-address-first{
+    text-decoration: none;
 }
 .logo-webstudio{
     font-family: "Raleway", sans-serif;
@@ -50,6 +60,11 @@ address{
 /* 1.bölüm başlangıç*/
 .main-section{
     background-color: #2e2f42;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .main-section-head{
     font-size: 56px;
@@ -57,6 +72,8 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+
 }
 .main-section-button{
     background-color: #4D5AE5;
