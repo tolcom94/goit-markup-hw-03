@@ -4,9 +4,12 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+img{
+    display: block;
+}
 /* navbar başlangıç */
-header{
-    border: 0px, 0px, 1px, 0px;
+.header-first{
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container{
     align-items: center;
@@ -16,7 +19,7 @@ header{
     justify-content: space-around;
 }
 
-nav{
+.first-navbar{
     align-items: center;
     display: flex;
 }
@@ -25,6 +28,7 @@ nav{
     display: flex;
     gap: 40px;
     list-style-type: none;
+
 }
 .menu-studio,.nav-address-first{
     text-decoration: none;
@@ -38,6 +42,7 @@ nav{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 .logo-studio{
     color: #2e2f42;
