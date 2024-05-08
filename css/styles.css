@@ -1,4 +1,3 @@
-
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -8,30 +7,41 @@ img{
     display: block;
 }
 /* navbar başlangıç */
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container-dimension{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.first-navbar{
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin-left: 76px;
+}
+.navbar-menu{
+    display: flex;
+    gap: 40px;
+}
+.menu-studio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-first{
     border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
-    align-items: center;
-    display: flex;
-    width: 1140px;
-    height: 72px;
-    justify-content: space-around;
-}
-
-.first-navbar{
-    align-items: center;
-    display: flex;
-}
-.navbar-menu,.nav-address-display{
-    align-items: center;
+.nav-address-display{
     display: flex;
     gap: 40px;
-    list-style-type: none;
-
 }
-.menu-studio,.nav-address-first{
-    text-decoration: none;
+.nav-address-display li{
+    margin-right: 40px;
 }
 .logo-webstudio{
     font-family: "Raleway", sans-serif;
@@ -42,7 +52,6 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px;
 }
 .logo-studio{
     color: #2e2f42;
@@ -62,15 +71,12 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.nav-address{
-    font-style: normal;
-    justify-content: flex-end;
-}
+
 .nav-address-first:hover,.nav-address-first:focus{
     color: #404bbf;
 }
-/* navbar bitiş */
-/* 1.bölüm başlangıç*/
+/* /* navbar bitiş */
+/* 1.bölüm başlangıç*/ 
 .main-section{
     background-color: #2e2f42;
     height: 600px;
