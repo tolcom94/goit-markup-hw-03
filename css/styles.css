@@ -22,8 +22,8 @@ img{
     display: flex;
     align-items: center;
 }
-.nav-logo{
-    margin-left: 76px;
+.logo-webstudio{
+    margin-right: 76px;
 }
 .navbar-menu{
     display: flex;
@@ -32,9 +32,6 @@ img{
 .menu-studio{
     padding-top: 24px;
     padding-bottom: 24px;
-}
-.header-first{
-    border-bottom: 1px solid #e7e9fc;
 }
 .nav-address-display{
     display: flex;
@@ -84,6 +81,8 @@ img{
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .main-section-div{
     flex-direction: column;
