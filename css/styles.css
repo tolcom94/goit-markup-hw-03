@@ -157,7 +157,6 @@ img{
 
 }
 .ourteam-center{
-    margin-bottom: 72px;
     
 }
 .ourteam{
@@ -172,9 +171,15 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .section-ourteam-second{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+.personal{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .ourteam-paragraf{
     font-size: 16px;
