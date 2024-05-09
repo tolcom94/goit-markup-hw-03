@@ -152,19 +152,18 @@ img{
 /* 3.bölüm başlangıç*/
 .section-ourteam{
     background-color: #F4F4FD;
-    height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .ourteam-center{
-    border: 1px solid black;
-    height: 732px;
+    margin-bottom: 72px;
     
 }
 .ourteam{
-    flex-direction: row;
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
-    align-items: center;
+    gap: 24px;
 }
 .section-ourteam-head{
     font-size: 36px;
