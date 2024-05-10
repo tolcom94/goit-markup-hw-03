@@ -76,25 +76,18 @@ img{
 /* 1.bölüm başlangıç*/ 
 .main-section{
     background-color: #2e2f42;
-    height: 600px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-/* .main-section-div {
-    flex-direction: column;
-} */
 .main-section-head{
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
     max-width: 496px;
 }
+
 .main-section-button{
     background-color: #4D5AE5;
     font-weight: 500;
