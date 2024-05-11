@@ -10,7 +10,8 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header-first{
     border-bottom: 1px solid #e7e9fc;
@@ -37,7 +38,7 @@ img{
     display: flex;
     gap: 40px;
 }
-.nav-address-display li{
+.nav-address-display{
     margin-right: 40px;
 }
 .logo-webstudio{
@@ -125,6 +126,7 @@ img{
     overflow: hidden;
 }
 .mission-second{
+    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 .mission h2,h3{
