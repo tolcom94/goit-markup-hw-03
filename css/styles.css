@@ -179,15 +179,12 @@ img{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
-.ourteam-paragraf{
+.personal-title{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section-mission {
-    margin-bottom: 8px;
-}
-.personal-second{
+.section-personal{
     padding-top: 32px;
     padding-bottom: 32px;
 }
