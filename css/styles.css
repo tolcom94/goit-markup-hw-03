@@ -27,6 +27,7 @@ img{
 .navbar-menu{
     display: flex;
     gap: 40px;
+    padding: 0;
 }
 .menu-studio{
     padding-top: 24px;
