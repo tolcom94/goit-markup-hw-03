@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -122,7 +129,7 @@ img{
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 .mission-second{
@@ -143,7 +150,6 @@ img{
     display: flex;
     list-style-type: none;
     gap: 24px;
-    margin-right: 0 auto;
 }
 .mission-flexbox{
     background-color: #FFFFFF;
@@ -163,8 +169,6 @@ img{
     display: flex;
     list-style-type: none;
     gap: 24px;
-    margin-right: 0 auto;
-    padding-left: 0;
 }
 .section-ourteam-head{
     font-size: 36px;
@@ -183,10 +187,6 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.section-personal{
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .personal-head{
     text-align: center;
