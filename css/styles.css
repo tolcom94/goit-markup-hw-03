@@ -236,6 +236,9 @@ img{
     text-transform: capitalize;
     color: #2e2f42;
 }
+.ourportfolio-head{
+    margin-bottom: 8px;
+}
 .ourportfolio-paragraf{
     font-size: 16px;
     line-height: 1.5;
