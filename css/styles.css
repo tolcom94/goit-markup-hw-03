@@ -246,6 +246,8 @@ img{
 /*footer başlangıç*/
 .footer-class{
     background-color:  #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo-web{
     font-family: "Raleway", sans-serif;
@@ -256,6 +258,8 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-studio{
     color: #f4f4fd;
@@ -264,5 +268,6 @@ img{
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 /*footer bitiş*/
