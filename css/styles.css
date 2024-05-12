@@ -133,7 +133,6 @@ img{
     overflow: hidden;
 }
 .mission-second{
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 .mission h2,h3{
@@ -182,6 +181,10 @@ img{
 .section-ourteam-second{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+}
+.section-personal-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .personal-title{
     font-size: 16px;
